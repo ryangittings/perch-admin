@@ -3,7 +3,8 @@ Perch theme that improves user experience.
 
 ## Installation
 - Download ZIP
-- Upload contents of folder to `perch_folder/plugins/ui`
+- Upload contents of folder to `your_perch_folder/plugins/ui`
+- Update the path in `_config.inc` to your Perch path
 - Job done!
 
 ## What this theme does?
