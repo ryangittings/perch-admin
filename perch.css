@@ -1,0 +1,42 @@
+td.region {
+  width: 70%;
+}
+
+h2.divider {
+  background: #eff1f2;
+  margin: 0 24px;
+}
+
+.divider-collapse-zone {
+  background: #fafafa;
+  margin: 0 24px 40px 24px;
+}
+
+.edititem h2.divider:first-of-type {
+  background: none !important;
+}
+
+.field-wrap {
+  background: #fafafa;
+  border-bottom: 1px solid #eff1f2;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.divider-collapse-zone .divider-toggle {
+  margin-left: 0;
+  vertical-align: middle;
+}
+
+.edititem .divider-collapse-zone h2.divider:first-of-type {
+  background: #eff1f2 !important;
+  margin-top: 20px;
+}
+
+.repeated-fields .divider-collapse-zone {
+  background: #fff !important;
+}
+
+.repeated-fields .divider-collapse-zone .field-wrap {
+  background: #fff !important;
+}
