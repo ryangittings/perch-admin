@@ -40,3 +40,8 @@ h2.divider {
 .repeated-fields .divider-collapse-zone .field-wrap {
   background: #fff !important;
 }
+
+.asset-badge-thumb img {
+  max-width: 200px;
+  min-width: 64px;
+}
