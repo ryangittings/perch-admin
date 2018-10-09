@@ -1,5 +1,46 @@
+/* Listing */
+
 td.region {
   width: 70%;
+}
+
+/* Fields */
+
+.items .field-wrap {
+  background: #fff;
+  border-bottom: 1px solid #eff1f2;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 24px !important;
+}
+
+.field-group, .field-group.closed {
+  padding: 0;
+}
+
+.field-group .field-group-preview {
+  padding-bottom: 12px;
+}
+
+.field-group-label {
+  font-size: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+
+/* Dividers */
+
+h2.divider:first-of-type div {
+  font-size: 18px;
+}
+
+h2.divider:first-of-type {
+  padding-bottom: 18px;
+}
+
+h2.divider:first-of-type .divider-toggle {
+  display: none;
 }
 
 h2.divider {
@@ -16,13 +57,6 @@ h2.divider {
   background: none !important;
 }
 
-.items .field-wrap {
-  background: #fafafa;
-  border-bottom: 1px solid #eff1f2;
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
-}
-
 .divider-collapse-zone .divider-toggle {
   margin-left: 0;
   vertical-align: middle;
@@ -33,6 +67,8 @@ h2.divider {
   margin-top: 20px;
 }
 
+/* Repeating Regions */
+
 .repeated-fields .divider-collapse-zone {
   background: #fff !important;
 }
@@ -40,6 +76,8 @@ h2.divider {
 .repeated-fields .divider-collapse-zone .field-wrap {
   background: #fff !important;
 }
+
+/* Assets */
 
 .asset-badge-thumb img {
   max-width: 200px;
