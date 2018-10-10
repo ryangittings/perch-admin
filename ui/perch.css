@@ -31,15 +31,10 @@ td.region {
 
 /* Dividers */
 
-h2.divider:first-of-type div {
-  font-size: 18px;
+.items h2.divider:first-of-type div {
+  font-size: 16px;
 }
-
-h2.divider:first-of-type {
-  padding-bottom: 18px;
-}
-
-h2.divider:first-of-type .divider-toggle {
+.items h2.divider:first-of-type .divider-toggle {
   display: none;
 }
 
@@ -48,13 +43,17 @@ h2.divider {
   margin: 0 24px;
 }
 
+.divider-collapse-zone h2.divider {
+  margin-left: 0;
+}
+
 .divider-collapse-zone {
   background: #fafafa;
   margin: 0 24px 40px 24px;
 }
 
-.edititem h2.divider:first-of-type {
-  background: none !important;
+.divider-collapse-zone .divider-collapse-zone {
+  margin-left: 0;
 }
 
 .divider-collapse-zone .divider-toggle {
@@ -62,9 +61,19 @@ h2.divider {
   vertical-align: middle;
 }
 
+.edititem .items h2.divider:first-of-type {
+  background: none !important;
+}
+
 .edititem .divider-collapse-zone h2.divider:first-of-type {
   background: #eff1f2 !important;
   margin-top: 20px;
+}
+
+.template-help {
+  padding: 12px 24px 12px 24px;
+  margin: 0;
+  background: #fff;
 }
 
 /* Repeating Regions */
