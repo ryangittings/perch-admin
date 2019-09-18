@@ -92,3 +92,49 @@ h2.divider {
   max-width: 200px;
   min-width: 64px;
 }
+
+/* Notifications */
+
+.notification.notification-success, .notification.notification-success a.notification-link {
+  background-color: #EFFCF6;
+  color:#199473;
+  border-left: 2px solid #199473;
+  box-sizing: border-box;
+}
+
+.notification.notification-success svg {
+  fill: #199473;
+}
+
+.notification.notification-warning, .notification.notification-warning a.notification-link {
+  background-color: #FFFBEA;
+  color:#DE911D;
+  border-left: 2px solid #DE911D;
+  box-sizing: border-box;
+}
+
+.notification.notification-warning svg {
+  fill: #DE911D;
+}
+
+.notification.notification-alert, .notification.notification-alert a.notification-link {
+  background-color: #FFE3E3;
+  color:#CF1124;
+  border-left: 2px solid #CF1124;
+  box-sizing: border-box;
+}
+
+.notification.notification-alert svg {
+  fill: #CF1124;
+}
+
+/* Action Buttons */
+
+.submit-bar-actions .button.button-simple#btnSubmit,
+.submit-bar-actions .button.button-simple#btnsubmit {
+  border-bottom-color: #199473;
+}
+
+.submit-bar-actions .button.button-simple#add_another {
+  border-bottom-color: #1992D4;
+}
